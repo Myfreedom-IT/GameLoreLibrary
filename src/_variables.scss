@@ -1,0 +1,39 @@
+// fonts
+
+$main-font: 'Manrope';
+$h1-font: 'Righteous';
+
+
+// colours
+
+$white: #fff;
+$black: #000;
+$header-blue: rgb(14, 41, 75);
+$form-hover-p: rgb(0, 71, 171);
+$h1-blue: rgb(21, 23, 51);
+$h2-blue: rgb(29, 30, 51);
+$h3-blue: rgb(0, 51, 102);
+$shadow: rgb(30, 33,61);
+$mob-header-blue: rgb(0, 47, 85);
+
+// template
+
+%header-text{
+    font-size: 22px;
+    font-family: $main-font;
+    font-weight: 600;
+}
+
+%sections-headings{
+    font-family: $main-font;
+    font-size: 64px;
+    font-weight: 800;
+    color: $h2-blue;
+}
+
+%sections-p{
+    font-family: $main-font;
+    font-size: 30px;
+    color: $black;
+    font-weight: 700;
+}
